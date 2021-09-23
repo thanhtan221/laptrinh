@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Tiếng Anh</h2>
+    <input type="text" id="demo">
+    <button onclick="nhannut()">click</button>
+    <div id="hienra"></div>
+</body>
+<script>
+    function nhannut() {
+        let tienganh = ["car","cat","dog","Buffalo","horse"];
+        let tiengviet = ["ô tô","con mèo","con chó","trâu","ngựa"];
+        let index = tienganh.indexOf(document.getElementById("demo").value);
+        document.getElementById("hienra").innerHTML = tiengviet[index];
+}
+</script>
+
+</html>
