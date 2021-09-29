@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let count = parseInt(prompt("Nhập số Phút Đã Sử Dụng"));
+        let phi = 0;
+        let phicodinh=25;
+        if (count <= 50 ) {
+            alert(`số Phút Đã Sử Dụng ${(count*600)/phicodinh}`);
+        }else if (count <= 150) {
+            alert(`số Phút Đã Sử Dụng ${(count*400)/phicodinh}`);
+        }else if (count <= 200) {
+            alert(`số Phút Đã Sử Dụng ${(count*200)/phicodinh}`);
+        }else if (count >200) {
+            alert(`số Phút Đã Sử Dụng ${(count*100)/phicodinh}`); 
+        }
+        // alert(`Tổng số tiền Phải Nộp là ${}`)
+    </script>
+</body>
+</html>

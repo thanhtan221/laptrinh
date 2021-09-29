@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let kiemtra = parseInt(prompt("Nhập Điểm Vào"));
+        let giuaki = parseInt(prompt("Nhập Điểm Vào"));
+        let cuoiky = parseInt(prompt("Nhập Điểm Vào"));
+        let xeploai = ( (kiemtra + giuaki + cuoiky) / 3 );
+        if (xeploai <= 10 && xeploai >= 9) {
+            alert("Xuất Sắc");
+        }
+        else if (xeploai >= 8) {
+            alert("Giỏi");
+
+        }
+        else if (xeploai >= 7) {
+            alert("Khá");
+
+        }
+        else if (xeploai >= 6) {
+            alert("Trung binh Khá");
+
+        }
+        else if (xeploai>= 5) {
+            alert("Khá");
+
+        }
+        else if (xeploai >= 4) {
+            alert("kém");
+        } else {
+            alert("Nhập Điểm Không Hợp Lệ");
+        }
+
+
+    </script>
+</body>
+
+</html>
