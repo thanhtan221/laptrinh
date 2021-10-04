@@ -1,0 +1,75 @@
+marquee{
+    color:magenta;
+    font-size: 50px;
+}
+.row {
+    display: table;
+    margin: 0 auto;
+    width: 1500px;
+    
+}
+.cell {
+    display: table-cell;
+    padding-right: 80px;
+    background-color:greenyellow;
+}
+h3{
+    font-size: x-large;
+    color: red;
+}
+
+td {
+    font-size: x-large; 
+    color:blue;
+}
+table{  
+    border: 1px solid black;
+
+    
+}
+div {
+    border: black 1px solid;
+}
+.canle{
+    background-color: rgb(174, 192, 147); 
+    width: 350px;
+}
+.dichvu{
+margin: 0 auto;
+width: 15% ;
+}
+.service{
+    font-size: 30px;
+    color: red;
+    border: black 1px solid;
+    padding: 10px;
+    
+    
+}
+.Quanly{
+    width: 100%;   
+}
+.trade{
+    padding: 10px;
+    border: rgb(99, 136, 44) 1px solid;
+    
+}
+.warning{
+    background-color: blueviolet;
+}
+.danger{
+    background-color: chartreuse;
+    
+}
+.warning:hover{
+    background-color: rgb(181, 114, 245);
+}
+.danger:hover{
+    background-color: rgb(88, 163, 13);
+    
+}
+.alignment{
+    margin: 0 auto;
+}
+
+

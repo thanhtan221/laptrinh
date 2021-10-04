@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dự Án Quản Lý Sản Phẩm</title>
+    <link rel="stylesheet" href="duanquanlydichvu.css">
+</head>
+<body>
+    <table>
+        <marquee scrollamount="12">Mua Bán Dịch Vụ Facebook , Instagram , Tik Tok</marquee>
+    </table>
+    <div class="row">
+        <div class="cell">
+            <table border="1" style="width: 250px;" class="alignment">
+                <h3>Bảng Giá Facebook</h3>
+                <tr>
+                    <td>Follow =</td>
+                    <td>30đ/1</td>
+                </tr>
+                <tr>
+                    <td>Like =</td>
+                    <td>20đ/1</td>
+                </tr>
+                <tr>
+                    <td>share =</td>
+                    <td>1000đ/1</td>
+                </tr>
+                </tr>
+                <td>comment =</td>
+                <td>300đ/1</td>
+                </tr>
+                </tr>
+                <td>like comment =</td>
+                <td>50đ/1</td>
+                </tr>
+                </tr>
+                <td>group =</td>
+                <td>60đ/1</td>
+                </tr>
+            </table>
+        </div>
+        <div class="cell">
+            <table border="1" style="width: 250px;" class="alignment">
+                <h3>Bảng Giá Instagram</h3>
+                <tr>
+                    <td>Follow =</td>
+                    <td> 70đ/1</td>
+                </tr>
+                <tr>
+                    <td>Like =</td>
+                    <td>50đ/1</td>
+                </tr>
+                <tr>
+                    <td>share =</td>
+                    <td>1300đ/1</td>
+                </tr>
+                </tr>
+                <td>comment =</td>
+                <td>600đ/1</td>
+                </tr>
+                <td>like comment =</td>
+                <td>70đ/1</td>
+                </tr>
+                </tr>
+                <td>group =</td>
+                <td>100đ/1</td>
+                </tr>
+                <tr></tr>
+            </table>
+        </div>
+        <div class="cell">
+            <table border="1" class="alignment">
+                <h3>Bảng Giá Tik Tok</h3>
+                <tr>
+                    <td>Follow =</td>
+                    <td>20đ/1</td>
+                </tr>
+                <tr>
+                    <td>Like =</td>
+                    <td>10đ/1</td>
+                </tr>
+                <tr>
+                    <td>Share =</td>
+                    <td>400đ/1</td>
+                </tr>
+                </tr>
+                <td>comment =</td>
+                <td>150đ/1</td>
+                </tr>
+                <td>like comment =</td>
+                <td>30đ/1</td>
+                </tr>
+                </tr>
+                <td>view =</td>
+                <td>5đ/1</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="dichvu">
+        <table class="canle">
+            <tr>
+                <td>Tên</td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td>ID</td>
+                <td><input type="number" id="id_"></td>
+            </tr>
+            <tr>
+                <td>Dịch Vụ<select name="Dịch Vụ">
+                        <option value="">Facebook</option>
+                        <option value="">Instagram</option>
+                        <option value="">Tik Tok</option>
+                    </select></select></td>
+                <td><input type="text" id="service"></td>
+            </tr>
+            <tr>
+                <td>Số Lượng</td>
+                <th><input type="number" id="quantity"></th>
+            </tr>
+            <tr>
+                <td>Giá</td>
+                <th><input type="number" id="Price"></th>
+            </tr>
+            <tr>
+                <td><button onclick="xacnhan()">Xác Nhận</button></td>
+                <td><button onclick="reset()">reset</button></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <div class="service">
+            Manage
+        </div>
+        <div>
+            <table class="Quanly">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Name</th>
+                        <th>ID</th>
+                        <th>Dịch Vụ</th>
+                        <th>Số Lượng</th>
+                        <th>Giá</th>
+                        <th>Tổng Tiền</th>
+                    </tr>
+                </thead>
+                <tbody id="result" class="trade">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="duanquanlydichvu.js"></script>
+
+</html>
